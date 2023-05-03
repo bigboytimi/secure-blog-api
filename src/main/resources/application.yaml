@@ -1,0 +1,14 @@
+jwt.secret:
+  586E5A7234753778214125442A472D4B6150645367566B59703373357638792F
+
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/secureblog
+    username: bigboytimi
+    password: rootUser101
+    driverClassName: org.postgresql.Driver
+  jpa:
+    showSql: true
+    hibernate:
+      ddlAuto: create-drop
+    databasePlatform: org.hibernate.dialect.PostgreSQLDialect
